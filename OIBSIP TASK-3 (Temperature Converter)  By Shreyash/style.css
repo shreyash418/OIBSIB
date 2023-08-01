@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Merriweather&family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.head{
+    position: absolute;
+    top: 6rem;
+    width: 500px;
+    text-align: center;
+    background: #c7fab3;
+    border-radius: 4rem;
+    padding: 10px 0;
+}
+.head:hover{
+background:  rgb(161, 161, 159);
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dee0e0;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    width:100%;
+    
+    background:#7d99f7;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    
+}
+.wrapper .input-box h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2px;
+}
+ .wrapper .icon{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+  
+    
+}
+
+.wrapper .input-box input {
+    max-width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: #737373;
+    
+}
+.input-box input::-webkit-inner-spin-button,
+.input-box input ::-webkit-outer-spin-button {
+    display: none;
+}
+.btn{
+    
+   position: absolute;
+   bottom: 20vh;
+  
+}
+
+.allclear{
+    display: inline-block;
+    padding: .3rem 1rem ;
+    background: rgb(153, 128, 243);
+    border-radius: 4cqh;
+    box-shadow:0 0 1rem rgb(248, 96, 253);
+    font-size: 1rem;
+    color:#000000;
+
+    letter-spacing: .1rem;
+    font-weight:600 ;
+    transition: 0s ease ;
+}
+.allclear:hover {
+background: rgb(120, 122, 115);
+    
+}
