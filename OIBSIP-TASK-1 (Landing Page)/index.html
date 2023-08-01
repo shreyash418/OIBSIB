@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets\img\finallogo.png" type="image/x-icon">
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        -->
+        
+        <!-- <link rel="stylesheet" href="utility.css"> -->
+        <title>PizzaMania</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets\img\finallogo.png" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">Speciality</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#case" class="nav__link">BestSeller</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Beverages</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <img src="assets\img\headingvala.png" alt="" class="home__img">
+                        <img src="assets\img\pizza.png" alt="" class="home__img">
+                    </div>
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">Hungry?</h1>
+                            <h2 class="home__subtitle">PizzaMania</h2>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Overview</h3>
+                            <p class="home__description">"Welcome to PizzaMania, where passion for pizza takes flight! Savor a delightful fusion of flavors, handcrafted with love and the finest ingredients. Experience a slice of pure joy that keeps you coming back for more. Embrace the pizza frenzy at PizzaMania today!".
+                            </p>
+                            <a href="#" class="button button--flex">
+                                <span class="button--flex">
+                                    <i class='bx bx-bowl-hot'></i> ADD+
+                                </span>
+                                <span class="home__price">₹ 199/-</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--=============== SPONSOR ===============-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <img src="assets\img\Swiggy3.png" style="border-radius: 18px;" alt="" class="sponsor__img">
+                    <img src="assets\img\zomato.png"style="border-radius: 22px;" alt="" class="sponsor__img">
+                    <img src="assets\img\download.png" style="border-radius: 22px;" alt="" class="sponsor__img">
+                    <img src="assets\img\take-away.png" alt="" class="sponsor__img">
+                </div>
+            </section>
+
+            <!--=============== SPECS ===============-->
+            <section class="specs section grid" id="specs">
+                <h2 class="section__title section__title-gradient">Our Speciality</h2>
+
+                <div class="specs__container container grid">
+                    <div class="specs__content grid">
+                        <div class="specs__data">
+                            <i class='bx bx-bowl-hot'></i>
+                            <h3 class="specs__title">Quality</h3>
+                            <span class="specs__subtitle">Best Ingredients</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class='bx bx-food-tag'></i>
+                            <h3 class="specs__title">Hygiene</h3>
+                            <span class="specs__subtitle"> Hygienic cooking and Packing</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class='bx bx-restaurant' ></i>
+                            <h3 class="specs__title">Taste</h3>
+                            <span class="specs__subtitle">Super Delicious Food</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class='bx bx-package' ></i>
+                            <h3 class="specs__title">Delivery</h3>
+                            <span class="specs__subtitle">On Time Delivery </span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <img src="assets\img\mealtop.jpg" alt="" class="specs__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== quality===============-->
+            <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient">BestSeller</h2>
+
+                <div class="case__container container grid">
+                    <div>
+                        <img src="assets\img\pizza.png" alt="" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description"> "PizzaMania special" is most loved pizza by customers and the Speciality of this pizza is that it is cooked with our secret ingredients. And we assure that you will never find same taste anywhere else.
+                        </p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-information-line button__icon"></i> Must Try
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== DISCOUNT ===============-->
+            <section class="discount section">
+                <h2 class="section__title section__title-gradient">Best Offers</h2>
+                <div class="discount__container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title"> First 100 customers <br>Get <b>60% OFF</b></h2>
+                        <p class="discount__description">Try our Delicious Pizza and burgers wirh wide range of offers.</p>
+                        <a href="#" class="button button--flex">
+                            <i class='bx bx-restaurant' ></i> Try Now!
+                        </a>
+                    </div>
+
+                    <img src="assets\img\burger.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <!--=============== cokes===============-->
+            <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                    Choose <br> Your Style
+                </h2>
+
+                <div class="products__container container grid">
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets\img\coka.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Coke</h3>
+                            <span class="products__price">₹ 99/-</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets\img\pepsihai.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Pepsi</h3>
+                            <span class="products__price">₹ 99/-</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets\img\fanta.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Fanta</h3>
+                            <span class="products__price">₹ 99/-</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets\img\7upp.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">7up</h3>
+                            <span class="products__price">₹ 79/-</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets\img\cola.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">COLA</h3>
+                            <span class="products__price">₹ 89/-</span>
+    
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="assets\img\finallogo.png" alt="">
+                </a>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Items</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Pizza</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Burgers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Beverages</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">customer Helpline</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Offers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ask Us</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <form action="" class="footer__form">
+                        <div style="display: grid;">
+                      <div>  <input type="text"placeholder="Name" class="footer__input" ></div>
+                      <br>
+                       <div > <input type="email" placeholder="Email" class="footer__input"></div>
+                    </div>
+                    
+                    </form>
+                    <div style="justify-content: center; align-items: center; display: flex;margin-bottom: 15px;">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-line button__icon"></i> Subscribe
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="#" target="_blank" class="footer__copy-link">&#169; PizzaMania</a>
+            </p>
+            <div class="footer__social" style="display: flex; justify-content: center; margin-bottom: -1rem; margin-top: 10px;">
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="ri-twitter-line"></i>
+                </a>
+            </div>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
